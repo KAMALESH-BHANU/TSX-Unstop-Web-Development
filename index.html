@@ -1,0 +1,134 @@
+# Here is the index.html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kamalesh | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kamalesh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="vh-100 d-flex align-items-center justify-content-center text-white text-center bg-primary">
+    <div>
+      <h1 class="display-4">Hi, I'm Kamalesh</h1>
+      <p class="lead">Frontend Developer | UI Enthusiast</p>
+      <a href="#projects" class="btn btn-light mt-3">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/500x300" class="img-fluid rounded shadow" alt="about" />
+      </div>
+      <div class="col-md-6">
+        <p>Hello! I'm a passionate web developer with a strong interest in building responsive and user-friendly web applications. I'm currently interning at TechSonIx, where I'm gaining hands-on experience in real-world projects using HTML, CSS, JS, and Bootstrap.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <label>HTML</label>
+          <div class="progress mb-3"><div class="progress-bar" style="width: 95%">95%</div></div>
+          <label>CSS</label>
+          <div class="progress mb-3"><div class="progress-bar bg-success" style="width: 90%">90%</div></div>
+          <label>JavaScript</label>
+          <div class="progress mb-3"><div class="progress-bar bg-info" style="width: 80%">80%</div></div>
+        </div>
+        <div class="col-md-6">
+          <label>Bootstrap</label>
+          <div class="progress mb-3"><div class="progress-bar bg-warning" style="width: 85%">85%</div></div>
+          <label>Git & GitHub</label>
+          <div class="progress mb-3"><div class="progress-bar bg-danger" style="width: 70%">70%</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container py-5">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card shadow-sm project-card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="project1">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">A responsive personal portfolio using HTML, CSS, JavaScript & Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm project-card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="project2">
+          <div class="card-body">
+            <h5 class="card-title">To-Do App</h5>
+            <p class="card-text">Simple to-do app with task adding, deleting, and completion functionality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    &copy; 2025 Kamalesh | Designed with ❤️ using Bootstrap
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

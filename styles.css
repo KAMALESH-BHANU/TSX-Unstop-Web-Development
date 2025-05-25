@@ -1,0 +1,26 @@
+# Here is the code for styles.css
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #0d6efd !important;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.progress-bar {
+  animation: grow 1s ease-out forwards;
+}
+
+@keyframes grow {
+  0% { width: 0; }
+}
